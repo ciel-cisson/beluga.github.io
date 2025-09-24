@@ -1,0 +1,6 @@
+stef.local {
+	root * C:\Users\stefc\Downloads\caddy
+	try_files {path} /index.htm /index.html
+	file_server
+	tls internal
+}
